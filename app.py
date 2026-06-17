@@ -24,7 +24,7 @@ bcrypt = Bcrypt(app)
 # If SMTP_USER / SMTP_PASS are not set, emails are skipped and a log
 # message is printed instead.
 # ──────────────────────────────────────────────────────────────────────
-ADMIN_EMAIL       = 'chamarakasun421@gmail.com'
+ADMIN_EMAIL       = 'add your email'
 SMTP_HOST         = os.environ.get('SMTP_HOST', 'smtp.gmail.com')
 SMTP_PORT         = int(os.environ.get('SMTP_PORT', '587'))
 SMTP_USER         = os.environ.get('SMTP_USER', '')   # sender Gmail address
